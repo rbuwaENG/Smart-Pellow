@@ -2,7 +2,7 @@
 #include "vibration.h"
 #include <Arduino.h>
 
-#define VIBRATOR_PIN 25
+#define VIBRATOR_PIN 35
 
 void initVibration() {
     pinMode(VIBRATOR_PIN, OUTPUT);

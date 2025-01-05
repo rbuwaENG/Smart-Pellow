@@ -9,11 +9,12 @@
 #include "vibration.h"
 #include "fsr.h"
 #include "display.h"
-#include "keypadandler.h"
+#include "keypadhandler.h"
+#include "buzzer.h"
 
 // WiFi credentials
-const char* ssid = "YOUR_SSID";
-const char* password = "YOUR_PASSWORD";
+const char* ssid = "Pixel 6";
+const char* password = "21472147";
 
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org", 0, 60000);
@@ -30,6 +31,7 @@ void setup() {
     initVibration();
     initFSR();
     initKeypad();
+    initBuzzer();
 
     // Connect to Wi-Fi
     WiFi.begin(ssid, password);
@@ -40,6 +42,7 @@ void setup() {
     Serial.println("Connected to WiFi");
 
     timeClient.begin();
+    timeClient.setTimeOffset(19800);
 }
 
 void loop() {
@@ -52,14 +55,25 @@ void loop() {
 
     // Check for keypad input
     char key = getKeypadInput();
+    Serial.println(key);
     if (key) {
         handleKeyInput(key, alarmHour, alarmMinute, alarmSet);
     }
 
-    // Check for alarm
-    if (alarmSet && currentHour == alarmHour && currentMinute == alarmMinute) {
-        triggerVibration();
+    // Check if alarm is set and the time has reached
+    static bool alarmTriggered = false;  // To avoid triggering the alarm multiple times
+    if (alarmSet && currentHour == alarmHour && currentMinute == alarmMinute && !alarmTriggered) {
+        triggerVibration();  // Trigger vibration when alarm time matches
+        triggerBuzzer(100,10);
+        Serial.println("Alarm triggered!");
+        alarmTriggered = true;  // Set to true to avoid multiple triggers
     }
 
-    delay(1000);
+    // Reset the alarmTriggered flag if the time has passed
+    if (currentHour != alarmHour) {
+        alarmTriggered = false;  // Allow the alarm to be triggered again the next day
+    }
+
+    delay(10);
 }
+

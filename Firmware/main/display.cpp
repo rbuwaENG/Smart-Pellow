@@ -21,7 +21,7 @@ void initDisplay() {
     display.setCursor(10, 10);
     display.println("Welcome to");
     display.setCursor(10, 25);
-    display.setTextSize(2);
+    display.setTextSize(1);
     display.println("Smart Pillow");
     display.display();
     delay(2000);
@@ -39,7 +39,7 @@ void initDisplay() {
 
 void displayTime(int hour, int minute, int alarmHour, int alarmMinute, bool alarmSet) {
     display.clearDisplay();
-    display.setTextSize(2);
+    display.setTextSize(1);
     display.setTextColor(SSD1306_WHITE);
     display.setCursor(0, 10);
     display.printf("Time: %02d:%02d", hour, minute);
