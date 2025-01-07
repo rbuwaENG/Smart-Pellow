@@ -1,0 +1,287 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.3">
+  <diagram name="Page-1" id="M5CuoUMxY_FxglYrT-BO">
+    <mxGraphModel dx="7087" dy="2837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-101" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="250" width="960" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-1" target="UXCPexEOHB_2CTwcUa0j-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-1" target="UXCPexEOHB_2CTwcUa0j-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-1" value="ESP32 Module" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB366;" vertex="1" parent="1">
+          <mxGeometry x="100" y="622.5" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-2" value="Oled display" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="842.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-3" value="Force sensitive resistor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="70" y="842.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-4" target="UXCPexEOHB_2CTwcUa0j-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-4" value="keyPad" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="250" y="842.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-5" value="Vibration motor&lt;br&gt;(actuator)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="440" y="842.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-6" target="UXCPexEOHB_2CTwcUa0j-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-6" value="Battery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="140" y="482.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-7" value="TP4056 charging module" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="140" y="282.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-8" target="UXCPexEOHB_2CTwcUa0j-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-8" value="3S BMS module" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="140" y="372.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.358;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-3" target="UXCPexEOHB_2CTwcUa0j-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-13" value="I2C cimmunication" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="742.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-15" value="Analog input" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="792.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-16" value="Digital input" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="762.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-18" value="PMW output" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="752.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-22" value="charge the batteries orderly" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="387.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-23" value="RTC real time clock" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="842.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.32;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-23" target="UXCPexEOHB_2CTwcUa0j-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-240" y="664.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-25" value="Serial communication" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="742.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.437;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-1" target="UXCPexEOHB_2CTwcUa0j-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-102" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="36.25" width="1890" height="1397.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.437;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1820.89" y="160" as="sourcePoint" />
+            <mxPoint x="1821.0999999999997" y="229.99999999999997" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1820.89" y="156" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-26" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1771" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-27" target="UXCPexEOHB_2CTwcUa0j-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-27" value="RTC real time clock&lt;div&gt;for input time&lt;br&gt;(time)&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1715" y="360" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-29" target="UXCPexEOHB_2CTwcUa0j-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-29" value="FSR sensor Input&lt;div&gt;(fsr)&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="475" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-34" value="Initalize sensors&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1761" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.532;entryY=-0.056;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-34" target="UXCPexEOHB_2CTwcUa0j-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-37" value="Get the time.current" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1707.5" y="600" width="215" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-39" target="UXCPexEOHB_2CTwcUa0j-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1814.588235294118" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-39" value="if alarm is not set" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1757.5" y="700" width="115" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-37" target="UXCPexEOHB_2CTwcUa0j-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-42" value="Input key" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="720" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-44" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-45" target="UXCPexEOHB_2CTwcUa0j-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1960" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2060" y="940" />
+              <mxPoint x="1960" y="940" />
+              <mxPoint x="1960" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-45" value="if &quot;#&quot; is pressed" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="820" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-47" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="840" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-48" value="Set hours" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="850" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-42" target="UXCPexEOHB_2CTwcUa0j-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-53" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="910" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1960" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-54" target="UXCPexEOHB_2CTwcUa0j-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-54" value="if &quot;*&quot; is pressed" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2410" y="820" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-48" target="UXCPexEOHB_2CTwcUa0j-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-58" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="910" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-59" target="UXCPexEOHB_2CTwcUa0j-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-59" value="set minute" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="850" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-61" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="840" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-62" target="UXCPexEOHB_2CTwcUa0j-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2790" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-62" value="Alarm is set" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2740" y="850" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-65" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1761" y="810" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-66" target="UXCPexEOHB_2CTwcUa0j-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-66" value="if alarm time is equal to current time" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1735" y="1017.5" width="165" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-71" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1070" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-72" target="UXCPexEOHB_2CTwcUa0j-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-72" value="if the frs threshold is greator than&amp;nbsp;&lt;br&gt;fixed threshold" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="1150" width="190" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1820" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-74" value="Display the alarm time" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="960" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-79" value="stop vibration motors" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1207.5" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-81" target="UXCPexEOHB_2CTwcUa0j-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-81" value="Alarm is not set" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1207.5" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-84" value="trigger the vibration motors" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1072.5" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1810" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1130" y="690" />
+              <mxPoint x="1757" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-84" target="UXCPexEOHB_2CTwcUa0j-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-79" target="UXCPexEOHB_2CTwcUa0j-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-90" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="1195" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1970" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-92" value="update current time" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1736" y="1195" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.479;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-66" target="UXCPexEOHB_2CTwcUa0j-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-96" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="1165" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXCPexEOHB_2CTwcUa0j-97">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1670" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-97" value="update frs threshold valus" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1350" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXCPexEOHB_2CTwcUa0j-100" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="1305" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
